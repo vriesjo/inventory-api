@@ -1,8 +1,8 @@
 # Inventory Management API
 
-This rest api is used by the inventory-webapp to provide inventory information.
+This Rest API is used by the inventory-webapp and provides inventory information.
 
-It's a Spring MVC API includes 
+It's a Spring MVC API and it includes 
 
 - the inventory CRUD operations supported by PostgresSQL.
 - the inventory reservation functionality supported by Redis.  
@@ -10,7 +10,7 @@ It's a Spring MVC API includes
 Prerequisites: Java 11, Maven.
 
 ### Design
-The domain model has 3 entities: 
+The domain model contains 3 entities: 
 - Product, Supplier and Category 
 
 With the following relations:
@@ -21,8 +21,8 @@ With the following relations:
 - Web Service endpoint
 - PostgreSQL support
 - Liquibase support
-- inventory CRUD operations with Sping JPA
-- reservation feature with Redis  
+- Inventory CRUD operations with Spring JPA
+- Reservation feature with Redis  
 
 ### To run locally:
 First start the PostgreSQL database:
