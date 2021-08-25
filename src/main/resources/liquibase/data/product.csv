@@ -1,0 +1,4 @@
+id;code;name;description;unit;price;quantity;status;supplier_id;category_id
+1;DF457DWEX6;Accuboormachine;Makita accuboormachine;Stuks;199;10;Available;1;3
+2;443288;Speciekuip rechthoekig;Speciekuip rechthoekig 45 liter;Liter;7.69;20;Available;2;1
+3;918699;Schneider Electric Merten Aquastar;Schneider Electric Merten Aquastar spatwaterdicht geaard stopcontact dubbel;Stuks;18.59;10;Available;3;2

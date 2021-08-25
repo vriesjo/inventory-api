@@ -1,0 +1,19 @@
+version: '3.7'
+
+volumes:
+  postgres:
+
+services:
+  postgres:
+    container_name: inventory_postgres
+    image: "postgres:12"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+      PGDATA: "/data/postgres/v3"
+    volumes:
+      - postgres:/data/postgres
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+    ports:
+      - "15432:5432"
+    restart: unless-stopped

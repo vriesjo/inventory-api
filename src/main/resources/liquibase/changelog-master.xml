@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="liquibase/changelogs/create_entity_supplier_v1.xml"/>
+    <include file="liquibase/changelogs/create_entity_category_v1.xml"/>
+    <include file="liquibase/changelogs/create-entity_product_v1.xml"/>
+    <include file="liquibase/changelogs/add_entity_constraints_product_v1.xml"/>
+    <include file="liquibase/changelogs/create-category_sequence_v1.xml"/>
+    <include file="liquibase/changelogs/create-supplier_sequence_v1.xml"/>
+    <include file="liquibase/changelogs/create-product_sequence_v1.xml"/>
+
+</databaseChangeLog>
