@@ -22,7 +22,12 @@ With the following relations:
 - PostgreSQL support
 - Liquibase support
 - Inventory CRUD operations with Spring JPA
-- Reservation feature with Redis  
+- Reservation flow with Redis. 
+
+The TTL value for the Redis cache reservation keys (possibly a shopping cart) is currently 30 minutes (1800 seconds). 
+This implies that each keys will automatically expire after 1800 seconds.  
+
+This modifying the `spring.redis.ttl` this can be changed. For testing purpose, it can be convenient.    
 
 ### To run locally:
 First start the PostgreSQL database:

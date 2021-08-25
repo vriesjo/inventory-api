@@ -11,7 +11,7 @@ spring:
   redis:
     host: localhost
     port: 6379
-    ttl: 120
+    ttl: 1800
 
 springdoc:
   packages-to-scan: com.intergamma
